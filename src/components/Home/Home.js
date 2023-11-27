@@ -1,0 +1,3 @@
+function Home ({Card, Equipe }) {
+
+}
