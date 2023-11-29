@@ -1,10 +1,15 @@
-import Header from "./components/Home/Home";
 
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Home/Home";
+import Equipe from "./components/SobreNos/Equipe";
 function App() {
+
   return (
-    <>
-      <Header/>
-    </>
+    <body>
+    <Header/>
+    <Equipe/>
+    <Footer/>
+    </body>
   );
 }
 
