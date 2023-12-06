@@ -1,7 +1,10 @@
-import './Home.css';
-import Logo from '../../img/Logo.png'
-import Planta1 from '../../img/planta-1.png'
-import Planta2 from '../../img/planta-2.png'
+import '../css/Header.css';
+import Logo from '../img/Logo.png'
+import Planta1 from '../img/planta-1.png'
+import Planta2 from '../img/planta-2.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+const element = <FontAwesomeIcon icon="fa-solid fa-bars"/>
 
 
 function Header({planta,planta2,logo}){
@@ -22,7 +25,7 @@ function Header({planta,planta2,logo}){
                 <div className="toggle_btn">
                     <i className="fa-solid fa-bars"></i>
                 </div>
-                <i className="fa-solid fa-magnifying-glass"></i>
+                <i className={element}></i>
                 <img src={Planta2} alt="" width="90rem" className="plant_two"/>
             </nav>
             <div class="dropdown_menu">

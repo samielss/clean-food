@@ -1,15 +1,16 @@
 
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Home/Home";
-import Equipe from "./components/SobreNos/Equipe";
+import Footer from "./components/Footer.js";
+import Header from "./components/Header.js";
+import Equipe from "./components/Equipe.js";
+import Home from "./components/Home.js";
 function App() {
 
   return (
-    <body>
+    <>
     <Header/>
-    <Equipe/>
+    <Home/>
     <Footer/>
-    </body>
+    </>
   );
 }
 

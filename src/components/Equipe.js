@@ -1,7 +1,7 @@
-import Samuel from '../../img/samu_profile.svg';
-import Diego from '../../img/diego_profiile.svg';
-import Kauan from '../../img/kauan_profile.svg';
-import './Equipe.css';
+import Samuel from '../img/samu_profile.svg';
+import Diego from '../img/diego_profiile.svg';
+import Kauan from '../img/kauan_profile.svg';
+import '../css/Equipe.css';
 
 
 
