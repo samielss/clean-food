@@ -1,3 +1,5 @@
+import Footer from "../components/Footer.js";
+import Header from "../components/Header.js";
 import Samuel from '../img/samu_profile.svg';
 import Diego from '../img/diego_profiile.svg';
 import Kauan from '../img/kauan_profile.svg';
@@ -6,7 +8,10 @@ import '../css/Equipe.css';
 
 
 function Equipe ({}) {
+    
     return (
+        <>
+        <Header/>
         <main className="cards">
         <h1 className="title">Nossa Equipe</h1>
         <section className="card contact">
@@ -40,6 +45,8 @@ function Equipe ({}) {
             <a href="https://github.com/GabrielMiranda05" target="_blank"><button><i className="fa-brands fa-github"></i>Github</button></a>
         </section>
     </main>
+    <Footer/>
+    </>
     )
 }
 

@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
-nav, div, ul, li,a {
+button {
+    all: unset;
+}
+nav, div, button {
     text-decoration: none;
     color: #FFECD6;
     font-size: 1rem;
 }
-ul{
-    list-style: none;
-}
-.links li a {
+.links button {
     color: #FFECD6;
     padding: 0.2rem 0.8rem;
     border: none;
@@ -18,7 +18,7 @@ ul{
     cursor: pointer;
     transition: scale 0.2 ease;
 }
-.links li a:hover{
+.links button:hover{
     background-color: #8C79B2;
     padding: 0.5rem 0.8rem;
     transition: all, 0.2s

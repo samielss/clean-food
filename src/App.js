@@ -1,15 +1,30 @@
+//Importando Rect Routes
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Footer from "./components/Footer.js";
-import Header from "./components/Header.js";
+// Importando os componentes do projeto
 import Equipe from "./components/Equipe.js";
 import Home from "./components/Home.js";
+
+// Criando as rotas do projeto
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Home/>
+  },
+  {
+    path:"equipe",
+    element:<Equipe/>
+  }
+])
+
+
+// App JS
 function App() {
 
   return (
     <>
-    <Header/>
-    <Home/>
-    <Footer/>
+      {/* Importando as rotas */}
+      <RouterProvider router={router}/>
     </>
   );
 }
