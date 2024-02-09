@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 
 // Importando CSS e Imagens do Projeto
 import '../css/Header.css';
-import Logo from '../img/Logo.png'
+import Logo from '../img/Logo.svg'
 import Planta1 from '../img/planta-1.png'
 import Planta2 from '../img/planta-2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,6 +24,9 @@ function Header({planta,planta2,logo}){
     const handleEquipe = () => {
         return navigate("/Equipe")
     };
+    const handleLogin = () => {
+        return navigate("/Login")
+    };
     const handleAlergias = () => {
         return navigate("/Alergias")
     };
@@ -43,7 +46,7 @@ function Header({planta,planta2,logo}){
                     <ButtonMenu redirect={handleEquipe} itemMenu="Alergias"/>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
                 </div>
-                <button href="login.html" className="action_btn">login</button>
+                <ButtonMenu redirect={handleLogin} itemMenu="Login" btn_menu="action_btn"/>
                 <div className="toggle_btn">
                     <i className="fa-solid fa-bars"></i>
                 </div>

@@ -3,7 +3,7 @@ import "../css/ButtonMenu.css"
 function ButtonMenu (props){
     return (
         <>
-        <button className="button_menu" onClick={props.redirect}>{props.itemMenu}</button>
+        <button className={props.btn_menu} onClick={props.redirect}>{props.itemMenu}</button>
         </>
     )
 }

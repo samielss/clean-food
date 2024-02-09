@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // Importando os componentes do projeto
 import Equipe from "./components/Equipe.js";
 import Home from "./components/Home.js";
+import Login from './components/Login.js';
 
 // Criando as rotas do projeto
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path:"equipe",
     element:<Equipe/>
+  },
+  {
+    path:"login",
+    element:<Login/>
   }
 ])
 

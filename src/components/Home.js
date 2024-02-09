@@ -8,7 +8,7 @@ import Header from "../components/Header.js";
 import '../css/Home.css';
 
 // Importando Imagens
-import Logo from '../img/Logo.png'
+import Logo from '../img/Logo.svg'
 
 
 // Função Principal
@@ -16,7 +16,7 @@ function Home () {
     return (
         <>
         <Header/>
-        <main>
+        <main className="Home">
             <section className="text_center">
                 <img src={Logo} alt=""/>
                 <p>O site com as receitas para você!!</p>

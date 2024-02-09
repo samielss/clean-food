@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-main {
+main.Home {
     width: 100%;
     max-height: 350vh;
     background-image: url('../img/background.svg');
