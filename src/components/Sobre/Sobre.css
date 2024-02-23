@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:ital,wght@0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+main {
+    height: 100vh;
+    background-image: url('../../imagens/FUNDO-BG.png');
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: #FFECD6;
+    font-size: 5rem;
+}
+section#text_center{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+@media screen and (max-width: 700px)  {
+    main {
+        background-attachment: fixed;
+    }
+    section#text_center{
+        background-attachment: scroll;
+        display: inline-block;
+    }
+
+}
+@media screen and (max-width: 400px)  {
+    main {
+        background-attachment: fixed;
+        max-height: 190vh;
+    }
+    section#text_center{
+        background-attachment: scroll;
+        display: inline-block;
+        font-size: 1.3rem;
+        max-height: 2px;
+    }
+
+}
