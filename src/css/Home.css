@@ -20,7 +20,7 @@ section.text_center{
     color: #fff;
 }   
 @media screen and (max-width: 500px ) {
-    main{
+    main.Home{
         width: 100%;
     }
     section#text_center img {
@@ -78,7 +78,7 @@ section.text_center{
     }
 }
 @media (max-width: 390px ) {
-    main{
+    main.Home{
         width: 100%;
     }
     section#text_center img {

@@ -5,8 +5,8 @@ import CardLogin from './CardLogin';
 function Login () {
     return (
         <>
-        <main className='New_account'>
-            {/* <CardLogin/> */}
+        <main className='New_account'>  
+            <CardLogin/>
         </main>
         </>
     )

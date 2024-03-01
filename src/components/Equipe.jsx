@@ -1,5 +1,5 @@
-import Footer from "../components/Footer.js";
-import Header from "../components/Header.js";
+import Footer from "./Footer.jsx";
+import Header from "./Header.jsx";
 import Samuel from '../img/samu_profile.svg';
 import Diego from '../img/diego_profiile.svg';
 import Kauan from '../img/kauan_profile.svg';

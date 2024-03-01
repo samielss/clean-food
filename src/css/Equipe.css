@@ -101,7 +101,7 @@ main.cards section.card.contact {
     }
 }
 @media screen and (max-width: 700px) {
-    main {
+    main.cards {
         height: 250vh;
 }
 main.cards {
@@ -124,7 +124,7 @@ h1.title {
 }
 }
 @media screen and (max-width: 375px)  {
-    main {
+    main.cards {
             height: 310vh;
     }
     main.cards {
