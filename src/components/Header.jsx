@@ -46,7 +46,7 @@ function Header({planta,planta2,logo}){
                     <ButtonMenu redirect={handleEquipe} itemMenu="Alergias"/>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
                 </div>
-                <ButtonMenu redirect={handleLogin} itemMenu="Login" btn_menu="action_btn"/>
+                <ButtonMenu redirect={handleLogin} itemMenu="Login" btnClass="action_btn"/>
                 <div className="toggle_btn">
                     <i className="fa-solid fa-bars"></i>
                 </div>
@@ -55,12 +55,11 @@ function Header({planta,planta2,logo}){
             </nav>
             <div class="dropdown_menu">
             <li><button href="index.html">Home</button></li>
-                <li
-                ><button href="about.html">Sobre</button></li>
-                <li><button href="team.html">Nossa Equipe</button></li>
-                <li><button href="alergias.html">Alergias</button></li>
-                <li><button href="intolerancias.html">Intolerâncias</button></li>
-                <li><button href="login.html" class="action_btn" id="login_dropdown">Login</button></li>
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Sobre"/>
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Nossa Equipe"/>
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Alergias"/>
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
+                    <ButtonMenu redirect={handleLogin} itemMenu="Login" btnClass="action_btn"/>
             </div>
         </header>
     )

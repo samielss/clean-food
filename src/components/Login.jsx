@@ -6,6 +6,7 @@ function Login () {
     return (
         <>
         <main className='New_account'>  
+            <ButtonMenu btnClass="new_button" itemMenu="Criar uma nova conta!"/>
             <CardLogin/>
         </main>
         </>

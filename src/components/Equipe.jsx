@@ -21,13 +21,13 @@ function Equipe ({}) {
             <a href="https://github.com/samielss" target="_blank"><button><i className="fa-brands fa-github"></i>Github</button></a>
         </section>
         <section className="card contact">
-            <img src={Kauan} alt="Kauan Pinheiro"/>  
+            <img src={Samuel} alt="Kauan Pinheiro"/>  
             <h3>Kauan Pinheiro</h3>
             <span>DBA</span>
             <a href="https://github.com/samielss" target="_blank"><button><i className="fa-brands fa-github"></i>Github</button></a>
         </section>
         <section className="card contact">
-            <img src={Diego} alt="Diego Sampaio"/>  
+            <img src={Samuel} alt="Diego Sampaio"/>  
             <h3>Diego Sampaio</h3>
             <span>Designer</span>
             <a href="https://github.com/diego20232" target="_blank"><button><i className="fa-brands fa-github"></i>Github</button></a>

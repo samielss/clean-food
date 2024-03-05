@@ -1,16 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
 div.Card_container{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 720px;
     height: 708px;
     background-color: #FF8F8F;
+    color: antiquewhite;
     border-radius: 3rem;
     align-items: center;
     justify-content: center;
-    box-shadow:  #FF8F8F;
+    box-shadow: #FF6A6A 0px 1px 20px, #FF6A6A 0px 0px 56px, #FF6A6A 0px 0px 0px;
+    font-family: 'Coiny', sans-serif;
 }
 
-
-h1.tituloCard{
-    color: black;
+.input_login{
+    all: unset;
+    border-bottom: solid #483F68 0.3rem;
+    font-size: 1.4rem;
 }
+
+.btn_login{
+    cursor: pointer;
+    background-color: #483F68;
+    box-shadow: #160D33 0rem 0.3rem 0.5rem, #160D33 0rem 0.2rem 0.2rem;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+    padding: 1rem 8rem;
+    transition: 0.4s;
+}
+.btn_login:hover{
+    transition: 0.4s;
+    scale: 110%;
+}
+
+.itens_login{
+    margin: 3rem;
+}
+

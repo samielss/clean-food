@@ -27,13 +27,14 @@
 @media (min-width:1201px) and (max-width:1900px){
     main.New_account {
         background-image: url("../img/Background-NewAcount.svg");
-        height: 100vh;
+        min-height: 100vh;
         background-position: absolute;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
 };
 }
 
