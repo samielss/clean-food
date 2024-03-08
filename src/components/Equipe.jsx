@@ -3,7 +3,7 @@ import Header from "./Header.jsx";
 import Samuel from '../img/samu_profile.svg';
 import Diego from '../img/diego_profiile.svg';
 import Kauan from '../img/kauan_profile.svg';
-import '../css/Equipe.css';
+import '../css/Equipe.scss';
 
 
 

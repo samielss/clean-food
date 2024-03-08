@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import './Colors.scss';
+
 button {
     all: unset;
 }
 nav, div, button {
     text-decoration: none;
-    color: #FFECD6;
+    color: $font-color;
     font-size: 1rem;
 }
 .links button {
-    color: #FFECD6;
+    color: $font-color;
     padding: 0.2rem 0.8rem;
     border: none;
     outline: none;
@@ -71,14 +73,14 @@ header {
     gap: 2rem;
 }
 .navbar .toggle_btn {
-    color: #FFECD6;
+    color: $font-color;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
 }
 .action_btn {
     background-color: #8C79B2;
-    color: #FFECD6;
+    color: $font-color;
     padding: 0.4rem 1rem;
     border: none;
     outline: none;
@@ -93,7 +95,7 @@ header {
 }
 .action_btn:hover {
     scale:1.25;
-    color: #FFECD6;
+    color: $font-color;
     transition: all, 0.2s;
     max-width: 220px;
     max-height: 40px;

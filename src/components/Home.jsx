@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 // Importando Components do Projeto
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
-import '../css/Home.css';
+import '../css/Home.scss';
 
 // Importando Imagens
 import Logo from '../img/Logo.svg'

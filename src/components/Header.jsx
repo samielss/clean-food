@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom"
 
 // Importando CSS e Imagens do Projeto
-import '../css/Header.css';
+import '../css/Header.scss';
 import Logo from '../img/Logo.svg'
 import Planta1 from '../img/planta-1.png'
 import Planta2 from '../img/planta-2.png'

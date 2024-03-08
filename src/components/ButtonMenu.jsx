@@ -1,4 +1,4 @@
-import "../css/ButtonMenu.css";
+import "../css/ButtonMenu.scss";
 
 export default (props) => {
     return (

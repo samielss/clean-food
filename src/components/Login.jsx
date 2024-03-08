@@ -1,4 +1,4 @@
-import '../css/Login.css';
+import '../css/Login.scss';
 import ButtonMenu from './ButtonMenu';
 import CardLogin from './CardLogin';
 
