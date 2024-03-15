@@ -1,36 +1,50 @@
-@import './Colors.scss';
-@import './DefaultPositions.scss';
+@import './Default.scss';
 
-@media (max-width:799px){
-    main.New_account{
+@media (max-width:799px) {
+    body.Body_Login {
         @include default_background("../img/BackgroundMobile_Login.svg");
-        @include absolute-center();
-    };
+
+        main.New_account {
+            @include absolute-center();
+        }
+
+        ;
+    }
 }
 
-@media (min-width:800px) and (max-width:1200px){
+@media (min-width:800px) and (max-width:1200px) {
     main.New_account {
         @include default_background("../img/BackgroundLogin_Mobile800px.svg");
         @include absolute-center();
-};
+    }
+
+    ;
 }
 
-@media (min-width:1201px) and (max-width:1900px){
-    main.New_account {
+@media (min-width:1201px) and (max-width:1900px) {
+    body.Body_Login {
         @include default_background("../img/Background-NewAcount.svg");
-        @include absolute-center();
-        flex-direction: column;
-}
-.new_button{
-    cursor: pointer;
-    box-shadow: #160D33 0rem 0.3rem 0.5rem, #160D33 0rem 0.2rem 0.2rem;
-    font-size: 1.4rem;
-    border-radius: 3rem;
-    padding: 1rem 8rem;
-    transition: 0.4s;
-    position: relative;
-    left: 0;
-};
-}
+        header.Button_Account {
+            display: flex;
+            justify-content: flex-end;
+            padding: 2rem;
+            .new_button {
+                cursor: pointer;
+                background-color: $bg-color3;
+                font-family: $default-font;
+                color: $font-color;
+                box-shadow: $Shadow1;
+                font-size: 1.2rem;
+                border-radius: 3rem;
+                padding: 1rem 5rem;
+                transition: 0.4s;
+                left: 0;
+            }
+        }
 
-
+        main.New_account {
+            @include absolute-center();
+            flex-direction: column;
+        }
+    }
+}

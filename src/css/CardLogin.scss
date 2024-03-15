@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import './Default.scss';
 
 div.Card_container{
     position: relative;
@@ -6,13 +6,13 @@ div.Card_container{
     flex-direction: column;
     width: 720px;
     height: 708px;
-    background-color: #FF8F8F;
+    background-color: $bg-color3;
     color: antiquewhite;
     border-radius: 3rem;
     align-items: center;
     justify-content: center;
     box-shadow: #FF6A6A 0px 1px 20px, #FF6A6A 0px 0px 56px, #FF6A6A 0px 0px 0px;
-    font-family: 'Coiny', sans-serif;
+    font-family: $default-font;
 }
 
 .input_login{

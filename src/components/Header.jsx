@@ -36,9 +36,8 @@ function Header({planta,planta2,logo}){
 
     // Html
     return(
-        <header>
+        <header className="Header_menu">
             <nav className="navbar">
-                <img src={Planta1} alt="" className="plant_one"/>
                 <div className="logo"><a href="index.html"><img src={Logo} alt="" width="130rem"/></a></div>
                 <div className="links">
                     <ButtonMenu redirect={handleEquipe} itemMenu="Sobre"/>
@@ -47,11 +46,6 @@ function Header({planta,planta2,logo}){
                     <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
                 </div>
                 <ButtonMenu redirect={handleLogin} itemMenu="Login" btnClass="action_btn"/>
-                <div className="toggle_btn">
-                    <i className="fa-solid fa-bars"></i>
-                </div>
-                <i className={element}></i>
-                <img src={Planta2} alt="" width="90rem" className="plant_two"/>
             </nav>
             <div class="dropdown_menu">
             <li><button href="index.html">Home</button></li>
