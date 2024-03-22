@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Equipe from "./components/Equipe.jsx";
 import Home from "./components/Home.jsx";
 import Login from './components/Login.jsx';
+import NewAccount from './components/NewAccount.jsx';
 
 // Criando as rotas do projeto
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path:"login",
     element:<Login/>
+  },
+  {
+    path:"newAccount",
+    element:<NewAccount/>
   }
 ])
 

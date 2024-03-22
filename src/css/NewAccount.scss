@@ -1,7 +1,7 @@
 @import './Default.scss';
 
 @media (max-width:799px) {
-    body.Body_Login {
+    body.Body_New {
         @include default_background("../img/BackgroundMobile_Login.svg");
 
         main.New_account {
@@ -22,10 +22,10 @@
 }
 
 @media (min-width:1201px) and (max-width:3900px) {
-    body.Body_Login {
+    body.Body_New {
         @include default_background("../img/Background-NewAcount.svg");
 
-        header.Button_Account {
+        header.Button_New {
             display: flex;
             justify-content: center;
             padding: 2rem;

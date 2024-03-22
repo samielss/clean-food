@@ -12,7 +12,7 @@ div.Card_container {
     box-shadow: $Shadow1;
     font-family: $default-font;
 
-    .input_login {
+    .input_new {
         all: unset;
         border-bottom: solid #483F68 0.15rem;
         font-size: 1.4rem;
@@ -21,7 +21,7 @@ div.Card_container {
             color: $font-color;
         }
     }
-    .btn_login {
+    .btn_new {
         cursor: pointer;
         background-color: #483F68;
         box-shadow: #160D33 0rem 0.3rem 0.5rem, #160D33 0rem 0.2rem 0.2rem;
@@ -31,19 +31,12 @@ div.Card_container {
         transition: 0.4s;
     }
 
-    .btn_login:hover {
+    .btn_new:hover {
         transition: 0.4s;
         scale: 110%;
     }
 
-    .itens_login {
+    .itens_new {
         margin: 3rem;
-    }
-
-    .forgot_password {
-        cursor: pointer;
-        // &:hover{
-        //     box-shadow: $Shadow2;
-        // }
     }
 }
