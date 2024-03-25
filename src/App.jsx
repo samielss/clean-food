@@ -2,10 +2,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Importando os componentes do projeto
-import Equipe from "./components/Equipe.jsx";
-import Home from "./components/Home.jsx";
-import Login from './components/Login.jsx';
-import NewAccount from './components/NewAccount.jsx';
+import Equipe from "./components/Pages/Equipe/Equipe.jsx";
+import Home from "./components/Pages/Home/Home.jsx";
+import Login from './components/Pages/Login/Login.jsx';
+import NewAccount from './components/Pages/NewAccount/NewAccount.jsx';
 
 // Criando as rotas do projeto
 const router = createBrowserRouter([

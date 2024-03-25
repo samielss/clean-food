@@ -3,12 +3,12 @@
 import { useNavigate } from "react-router-dom"
 
 // Importando Components do Projeto
-import Footer from "./Footer.jsx";
-import Header from "./Header.jsx";
-import '../css/Home.scss';
+import Footer from "../../Helpers/Footer.jsx";
+import Header from "../../Helpers/Header.jsx";
+import '../../../css/Home.scss';
 
 // Importando Imagens
-import Logo from '../img/Logo.svg'
+import Logo from '../../../img/Logo.svg'
 
 
 // Função Principal

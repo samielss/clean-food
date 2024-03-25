@@ -1,12 +1,12 @@
 // Importando Use Navigate para navegar entre as páginas
 import { useNavigate } from "react-router-dom"
 
-import '../css/Login.scss';
-import ButtonMenu from './ButtonMenu';
+import '../../../css/Login.scss';
+import ButtonMenu from '../../Helpers/ButtonMenu';
 import CardLogin from './CardLogin';
-import Prato1 from '../img/Image_Food1.svg';
-import Prato2 from '../img/Image_Food2.svg';
-import Logo from '../img/Logo.svg'
+import Prato1 from '../../../img/Image_Food1.svg';
+import Prato2 from '../../../img/Image_Food2.svg';
+import Logo from '../../../img/Logo.svg'
 
 
 

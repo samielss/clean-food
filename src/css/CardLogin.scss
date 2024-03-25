@@ -1,11 +1,11 @@
 @import './Default.scss';
 
-div.Card_container {
+div.Card_container_Login {
     @include absolute-center();
     position: relative;
     flex-direction: column;
     width: 37%;
-    height: 40rem;
+    height: 48rem;
     background-color: $bg-color3;
     color: antiquewhite;
     border-radius: 3rem;
@@ -23,8 +23,8 @@ div.Card_container {
     }
     .btn_login {
         cursor: pointer;
-        background-color: #483F68;
-        box-shadow: #160D33 0rem 0.3rem 0.5rem, #160D33 0rem 0.2rem 0.2rem;
+        background-color: $bg-color2;
+        box-shadow: $Shadow2;
         font-size: 1.4rem;
         border-radius: 3rem;
         padding: 1rem 8rem;

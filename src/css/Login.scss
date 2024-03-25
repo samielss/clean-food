@@ -23,7 +23,7 @@
 
 @media (min-width:1201px) and (max-width:3900px) {
     body.Body_Login {
-        @include default_background("../img/Background-NewAcount.svg");
+        @include default_background("../img/Background-Login.svg");
 
         header.Button_Account {
             display: flex;

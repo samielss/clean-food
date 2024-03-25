@@ -1,9 +1,9 @@
-import Footer from "./Footer.jsx";
-import Header from "./Header.jsx";
-import Samuel from '../img/samu_profile.svg';
-import Diego from '../img/diego_profiile.svg';
-import Kauan from '../img/kauan_profile.svg';
-import '../css/Equipe.scss';
+import Footer from "../../Helpers/Footer.jsx";
+import Header from "../../Helpers/Header.jsx";
+import Samuel from '../../../img/samu_profile.svg';
+import Diego from '../../../img/diego_profiile.svg';
+import Kauan from '../../../img/kauan_profile.svg';
+import '../../../css/Equipe.scss';
 
 
 
