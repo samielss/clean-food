@@ -43,11 +43,11 @@ header.Header_menu {
                 font-size: 1rem;
                 border-radius: 2rem;
 
-                &:hover {
-                    background-color: $bg-color1;
-                    padding: 0.5rem 0.8rem;
-                    transition: all, 0.2s
-                }
+                // &:hover {
+                //     background-color: $bg-color1;
+                //     padding: 0.5rem 0.8rem;
+                //     transition: all, 0.2s
+                // }
             }
 
             .links button {
@@ -68,15 +68,14 @@ header.Header_menu {
             border-radius: 20px;
             font-size: 0.8rem;
             cursor: pointer;
-            transition: scale 0.2 ease;
-        
-            &:hover {
-                scale: 1.25;
-                color: $font-color;
-                transition: all, 0.2s;
-                max-width: 220px;
-                max-height: 40px;
-            }
+            transition: scale 0.2 ease;        
+            // &:hover {
+            //     scale: 1.25;
+            //     color: $font-color;
+            //     transition: all, 0.2s;
+            //     max-width: 220px;
+            //     max-height: 40px;
+            // }
         }
     }
 }

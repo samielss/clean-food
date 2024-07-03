@@ -22,9 +22,9 @@ const router = createBrowserRouter([
     element:<Login/>
   },
   {
-    path:"newAccount",
+    path:"NovaConta",
     element:<NewAccount/>
-  }
+  },
 ])
 
 

@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom"
 // Importando Components do Projeto
 import Footer from "../../Helpers/Footer.jsx";
 import Header from "../../Helpers/Header.jsx";
-import RightBar from "../../Helpers/RightBar.jsx";
 import '../../../css/Home.scss';
 
 // Importando Imagens
@@ -17,11 +16,14 @@ import RightBar from "../../Helpers/RightBar.jsx";
 function Home() {
     return (
         <>
-            <Header/>
+            <Header />
             <main className="Home">
-            <section className="text_center">
-                <RightBar/>
-            </section>
+                <section className="text_center">
+                    <section className="text_center">
+                        <img src={Logo} alt="" />
+                        <p>O site com as receitas para você!!</p>
+                    </section>
+                </section>
             </main>
             <Footer />
         </>

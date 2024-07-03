@@ -22,8 +22,8 @@ function Header({ }) {
     const handleEquipe = () => {
         return navigate("/Equipe")
     };
-    const handleLogin = () => {
-        return navigate("/Login")
+    const handleNovaConta= () => {
+        return navigate("/NovaConta")
     };
     const handleAlergias = () => {
         return navigate("/Alergias")
@@ -34,7 +34,7 @@ function Header({ }) {
     const handleButtonLogin = () => {
         return (
             <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 20}} className="action_btn">
-                <ButtonMenu redirect={handleLogin} itemMenu="Sing Up"/>
+                <ButtonMenu redirect={handleNovaConta} itemMenu="Sing Up"/>
                 <FontAwesomeIcon icon={faUser} color="#FFECD6" style={{backgroundColor: "#FF8F8F", padding:10, borderRadius: "2rem"}}/>
             </div>
         )

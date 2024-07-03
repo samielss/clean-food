@@ -13,7 +13,7 @@ import Logo from '../../../img/Logo.svg'
 function Login() {
         const navigate = useNavigate();
         const HandleNewAccount = () => {
-            return navigate ("/NewAccount")
+            return navigate ("/NovaConta")
         }
     return (
         <body className='Body_Login'>
