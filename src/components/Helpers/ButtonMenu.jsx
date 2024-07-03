@@ -1,3 +1,4 @@
+import { IconButton } from "@material-tailwind/react";
 import "../../css/ButtonMenu.scss";
 
 export default (props) => {

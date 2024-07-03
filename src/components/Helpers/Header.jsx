@@ -1,18 +1,16 @@
 // Importando Use Navigate para navegar entre as páginas
 import { useNavigate } from "react-router-dom"
-
+import React, { Component } from "react";
 // Importando CSS e Imagens do Projeto
 import '../../css/Header.scss';
 import Logo from '../../img/Logo.svg'
-import Planta1 from '../../img/planta-1.png'
-import Planta2 from '../../img/planta-2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+
 import ButtonMenu from "./ButtonMenu";
 
-const element = <FontAwesomeIcon icon="fa-solid fa-bars"/>
-
 // Função Principal
-function Header({planta,planta2,logo}){
+function Header({ }) {
     // Definindo a navegação entre as páginas
     const navigate = useNavigate();
     const handleHome = () => {
@@ -33,31 +31,38 @@ function Header({planta,planta2,logo}){
     const handleIntolerancias = () => {
         return navigate("/Intolerâncias")
     };
-
+    const handleButtonLogin = () => {
+        return (
+            <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 20}} className="action_btn">
+                <ButtonMenu redirect={handleLogin} itemMenu="Sing Up"/>
+                <FontAwesomeIcon icon={faUser} color="#FFECD6" style={{backgroundColor: "#FF8F8F", padding:10, borderRadius: "2rem"}}/>
+            </div>
+        )
+    }
     // Html
-    return(
+    return (
         <header className="Header_menu">
+            <div className="logo"><a href="index.html"><img src={Logo} alt="" width="180rem" /></a></div>
             <nav className="navbar">
-                <div className="logo"><a href="index.html"><img src={Logo} alt="" width="130rem"/></a></div>
                 <div className="links">
-                    <ButtonMenu redirect={handleEquipe} itemMenu="Sobre"/>
-                    <ButtonMenu redirect={handleEquipe} itemMenu="Nossa Equipe"/>
-                    <ButtonMenu redirect={handleEquipe} itemMenu="Alergias"/>
-                    <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Sobre" />
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Nossa Equipe" />
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Alergias" />
+                    <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias" />
                 </div>
-                <ButtonMenu redirect={handleLogin} itemMenu="Login" btnClass="action_btn"/>
+                {handleButtonLogin()}
             </nav>
-            <div class="dropdown_menu">
+            {/* <div class="dropdown_menu">
             <li><button href="index.html">Home</button></li>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Sobre"/>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Nossa Equipe"/>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Alergias"/>
                     <ButtonMenu redirect={handleEquipe} itemMenu="Intolerâncias"/>
                     <ButtonMenu redirect={handleLogin} itemMenu="Login" btnClass="action_btn"/>
-            </div>
+            </div> */}
         </header>
     )
-    }
+}
 ;
 
 export default Header;
