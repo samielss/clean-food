@@ -1,1 +1,23 @@
-@import './Default.scss';
+@import "./Default.scss";
+
+div.bar {
+    ul.list {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        list-style: none;
+        background-color: $bg-color2;
+        padding: 6rem 1rem 6rem 1rem;
+        border-radius: 2rem;
+        li.itens {
+            text-decoration: none;
+            background-color: $icons-bg;
+            color: $bg-color2;
+            padding: 1rem;
+            border-radius: 10rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

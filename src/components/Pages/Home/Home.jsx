@@ -10,6 +10,7 @@ import '../../../css/Home.scss';
 
 // Importando Imagens
 import Logo from '../../../img/Logo.svg'
+import RightBar from "../../Helpers/RightBar.jsx";
 
 
 // Função Principal
@@ -19,8 +20,7 @@ function Home() {
             <Header/>
             <main className="Home">
             <section className="text_center">
-                <img src={Logo} alt=""/>
-                <p>O site com as receitas para você!!</p>
+                <RightBar/>
             </section>
             </main>
             <Footer />
